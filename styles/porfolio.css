@@ -4,11 +4,10 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings:"wdth" 100;
 }
 .header{
-    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
 }
@@ -73,6 +72,7 @@ nav li a{
     justify-content: space-between;
     margin: 0 35px 0 150px;
 }
+
 section-titel{
     size: 35px;
     width: bold;
@@ -82,16 +82,19 @@ section-titel{
 }
 .about{
     border-radius: 10px;
-    padding: 0 150px;
+    padding: 130px 150px;
+    text-align: center;
+
 
 
 }
 main{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 130px 20px;
-    text-align: center;
+}
+main section{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 .item-description{
     font-weight: 600px;
@@ -99,4 +102,56 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+/*skill  section style*/
+.skill-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.resume-container{
+    display: flex;
+    gap: 24;
+}
+.exprience-sub-titel{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
